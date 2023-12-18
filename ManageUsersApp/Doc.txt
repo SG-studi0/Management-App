@@ -1,0 +1,7 @@
+AccountDetails
+1.updateAccountsDetials
+2.createTransactions
+3.getTranscations
+
+TranscationsDetails
+1.UpdateTransactions
