@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      Management App
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" routerLink="/app-home" routerLinkActive="activebutton">Home</a>
+        <a class="nav-link" routerLink="/app-about" routerLinkActive="activebutton">About</a>
+        <a class="nav-link" routerLink="/app-contact" routerLinkActive="activebutton">Contact</a>
+        <a class="nav-link" routerLink="/app-persons">Persons</a>
+      </div>
+    </div>
+    <div class="d-flex flex-row-reverse">
+      <a class="nav-link " routerLink="/app-login" routerLinkActive="activebutton ">Login</a>
+    </div>
+  </div>
+</nav>
+
+
+<div class="contianer"> 
+  <router-outlet></router-outlet>
+</div>
